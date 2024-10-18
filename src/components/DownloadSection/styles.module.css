@@ -1,0 +1,64 @@
+.downloadSection {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(90deg, #f6f0fd, #e2ecfe);
+  color: #333;
+}
+
+.downloadButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.downloadButton {
+  flex: 1;
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.primaryButton {
+  background-color: #6495ED;
+}
+
+.primaryButton:hover {
+  background-color: #8AB4F8;
+}
+
+.secondaryButton {
+  background-color: #E0E0E0;
+  color: #333333;
+}
+
+.secondaryButton:hover {
+  background-color: #D0D0D0;
+}
+
+:global(html[data-theme='dark']) .downloadSection {
+  background: linear-gradient(90deg, #2a2139, #1e2a4a);
+  color: #fff;
+}
+
+:global(html[data-theme='dark']) .downloadSection h2 {
+  color: #fff;
+}
+
+:global(html[data-theme='dark']) .downloadSection p {
+  color: #e0e0e0;
+}
+
+:global(html[data-theme='dark']) .secondaryButton {
+  background-color: #4a4a4a;
+  color: #ffffff;
+}
+
+:global(html[data-theme='dark']) .secondaryButton:hover {
+  background-color: #5a5a5a;
+}

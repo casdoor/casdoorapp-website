@@ -1,0 +1,22 @@
+.totpIntro {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.totpIntro h2 {
+  margin-bottom: 1rem;
+}
+
+.totpIntro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.totpIntro ul {
+  padding-left: 1.5rem;
+}
+
+.totpIntro li {
+  margin-bottom: 0.5rem;
+}

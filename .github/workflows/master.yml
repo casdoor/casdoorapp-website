@@ -1,0 +1,47 @@
+name: Build and Deploy
+on: 
+  push:
+      branches:
+        - master
+jobs:
+  build-and-deploy:
+    # env: 
+      # CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pnpm
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install and Build 🔧
+        run: |
+          pnpm install
+          # pnpm crowdin:sync
+          pnpm build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          git-config-name: ${{ secrets.GH_NAME }}
+          git-config-email: ${{ secrets.GH_EMAIL }}
+          repository-name: casdoor/casdoorapp.github.io
+          branch: master # The deploy branch.
+          folder: build # The deploy folder.
