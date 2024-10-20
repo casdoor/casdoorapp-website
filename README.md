@@ -6,7 +6,7 @@ This repository contains the documentation website for the Casdoor Authenticator
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) version 18 or above
+- [Node.js](https://nodejs.org/en/download/) version 20 or above
 - [Yarn](https://classic.yarnpkg.com/en/docs/install): please use Yarn 1
 
 ### Installation
