@@ -1,0 +1,43 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^(?!https?:\/\/)"
+        },
+        {
+            "pattern": "^http://localhost"
+        },
+        {
+            "pattern": "^https?://your-casdoor-url.com"
+        },
+        {
+            "pattern": "^https?://[a-z]*.?your-site-url.com"
+        },
+        {
+            "pattern": "^https://flarum.org/"
+        },
+        {
+            "pattern": "^https://dash.cloudflare.com/"
+        },
+        {
+            "pattern": "^https://developer.android.com/guide/topics/manifest/manifest-element#package"
+        },
+        {
+            "pattern": "^https://developer.twitter.com/en/portal/dashboard"
+        },
+        {
+            "pattern": "^https://www.epis2048.net/2022/modify-cloudreve-to-support-casdoor/index.html"
+        },
+        {
+            "pattern": "^https://www.epis2048.net/2022/modify-kodexplorer-to-support-casdoor/index.html"
+        },
+        {
+            "pattern": "^https://help.brevo.com/hc/en-us/articles/7924908994450"
+        },
+        {
+            "pattern": "^https://opendocs.alipay.com\\S+"
+        },
+        {
+            "pattern": "^https://www.bytebase.com/docs"
+        }
+    ]
+}
