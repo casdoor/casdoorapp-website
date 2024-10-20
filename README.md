@@ -7,18 +7,18 @@ This repository contains the documentation website for the Casdoor Authenticator
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) version 18 or above
-- [pnpm](https://pnpm.io/installation) version 8.5 or above
+- [Yarn](https://classic.yarnpkg.com/en/docs/install): please use Yarn 1
 
 ### Installation
 
 ```bash
-$ pnpm install
+$ yarn install
 ```
 
 ### Local Development
 
 ```bash
-$ pnpm start
+$ yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -26,7 +26,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```bash
-$ pnpm build
+$ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

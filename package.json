@@ -23,6 +23,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.4.3",
     "@docusaurus/preset-classic": "^2.4.3",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mdx-js/react": "^1.6.21",
@@ -65,5 +66,5 @@
   "engines": {
     "node": ">=18.0"
   },
-  "packageManager": "pnpm@8.5.1"
+  "packageManager": "yarn@1.22.22"
 }
