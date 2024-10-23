@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faClock, faMobileAlt, faQrcode, faShieldAlt, faSync, faUserLock} from "@fortawesome/free-solid-svg-icons";
+import {faClock, faExchangeAlt, faMobileAlt, faQrcode, faShieldAlt, faSync, faUserLock, faWifi} from "@fortawesome/free-solid-svg-icons";
 import styles from "./styles.module.css";
 import Translate, {translate} from "@docusaurus/Translate";
 
@@ -10,7 +10,7 @@ const features = [
       message: "Easy Account Setup",
     }),
     description: translate({
-      message: "Quickly add accounts by scanning QR codes for seamless TOTP integration.",
+      message: "Quickly add accounts by scanning QR codes or manual entry for seamless TOTP integration.",
     }),
     icon: faQrcode,
   },
@@ -58,6 +58,24 @@ const features = [
       message: "Your security is our priority. All data is encrypted and stored securely.",
     }),
     icon: faUserLock,
+  },
+  {
+    title: translate({
+      message: "Offline Mode",
+    }),
+    description: translate({
+      message: "Generate TOTP codes without an internet connection, ensuring access anytime, anywhere.",
+    }),
+    icon: faWifi,
+  },
+  {
+    title: translate({
+      message: "Import & Export",
+    }),
+    description: translate({
+      message: "Easily import accounts from other authenticator apps or export your data for backup.",
+    }),
+    icon: faExchangeAlt,
   },
 ];
 

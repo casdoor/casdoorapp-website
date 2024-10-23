@@ -25,40 +25,40 @@
 }
 
 .primaryButton {
-  background-color: #6495ED;
+  background-color: #6495ed;
 }
 
 .primaryButton:hover {
-  background-color: #8AB4F8;
+  background-color: #8ab4f8;
 }
 
 .secondaryButton {
-  background-color: #E0E0E0;
-  color: #333333;
+  background-color: #e0e0e0;
+  color: #333;
 }
 
 .secondaryButton:hover {
-  background-color: #D0D0D0;
+  background-color: #d0d0d0;
 }
 
-:global(html[data-theme='dark']) .downloadSection {
+:global(html[data-theme="dark"]) .downloadSection {
   background: linear-gradient(90deg, #2a2139, #1e2a4a);
   color: #fff;
 }
 
-:global(html[data-theme='dark']) .downloadSection h2 {
+:global(html[data-theme="dark"]) .downloadSection h2 {
   color: #fff;
 }
 
-:global(html[data-theme='dark']) .downloadSection p {
+:global(html[data-theme="dark"]) .downloadSection p {
   color: #e0e0e0;
 }
 
-:global(html[data-theme='dark']) .secondaryButton {
+:global(html[data-theme="dark"]) .secondaryButton {
   background-color: #4a4a4a;
-  color: #ffffff;
+  color: #fff;
 }
 
-:global(html[data-theme='dark']) .secondaryButton:hover {
+:global(html[data-theme="dark"]) .secondaryButton:hover {
   background-color: #5a5a5a;
 }

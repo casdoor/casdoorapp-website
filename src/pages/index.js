@@ -32,10 +32,15 @@ function HomepageHeader() {
                 to="/docs/overview">
                 <Translate>Get Started</Translate>
               </Link>
+              <Link
+                className="button button--primary button--lg download-button"
+                to="https://github.com/casdoor/casdoor-app/releases">
+                <Translate>Download</Translate>
+              </Link>
             </div>
           </div>
           <div className={styles.heroImage}>
-            <img src="/img/home/totp.svg" alt="totp" />
+            <img src="/img/home/iOS.png" alt="Casdoor Authenticator App Screenshot" />
           </div>
         </div>
       </div>

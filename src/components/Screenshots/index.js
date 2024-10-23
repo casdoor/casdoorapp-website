@@ -1,40 +1,35 @@
 import React from "react";
-import clsx from "clsx";
 import styles from "./styles.module.css";
 import Translate from "@docusaurus/Translate";
-
-const ScreenshotItem = ({img, title, description}) => (
-  <div className={clsx("col col--6")}>
-    <div className="text--center">
-      <img src={img} alt={title} className={styles.screenshotImage} />
-    </div>
-    <div className="text--center padding-horiz--md">
-      <h3 className={styles.screenshotTitle}><Translate>{title}</Translate></h3>
-      <p><Translate>{description}</Translate></p>
-    </div>
-  </div>
-);
 
 export default function Screenshots() {
   return (
     <section className={styles.screenshots}>
       <div className="container">
-        <div className="row">
-          <div className="col col--12 text--center">
-            <h2><Translate>Screenshots</Translate></h2>
+        <div className={styles.screenshotContent}>
+          <div className={styles.screenshotText}>
+            <h2 className={styles.screenshotTitle}>
+              <Translate>Secure & Easy to Use</Translate>
+            </h2>
+            <p className={styles.screenshotDescription}>
+              <Translate>
+                Manage your two-factor authentication codes with ease and enhanced security. Casdoor Authenticator provides a seamless experience for all your TOTP needs.
+              </Translate>
+            </p>
+            <ul className={styles.featureList}>
+              <li><Translate>Quick account setup</Translate></li>
+              <li><Translate>Secure code generation</Translate></li>
+              <li><Translate>Cross-device synchronization</Translate></li>
+              <li><Translate>User-friendly interface</Translate></li>
+            </ul>
           </div>
-        </div>
-        <div className="row">
-          <ScreenshotItem
-            img="/img/home/Android.jpg"
-            title="Android"
-            description="Android Home Screen"
-          />
-          <ScreenshotItem
-            img="/img/home/iOS.png"
-            title="iOS"
-            description="iOS Home Screen"
-          />
+          <div className={styles.screenshotWrapper}>
+            <img
+              src="/img/home/iOS.png"
+              alt="Casdoor Authenticator App Screenshot"
+              className={styles.screenshotImage}
+            />
+          </div>
         </div>
       </div>
     </section>
