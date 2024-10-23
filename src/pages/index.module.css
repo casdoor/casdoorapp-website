@@ -29,8 +29,10 @@
 }
 
 .heroImage img {
-  max-width: 80%;
+  max-width: 300px;
   height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
 
 .buttons {
@@ -40,15 +42,19 @@
   gap: 1rem;
 }
 
-@media screen and (max-width: 996px) {
+.buttons .button {
+  margin-right: 1rem;
+}
+
+@media screen and (width <= 996px) {
   .heroBanner {
     padding: 2rem;
   }
-  
+
   .heroContent {
     flex-direction: column;
   }
-  
+
   .heroImage {
     margin-top: 2rem;
     justify-content: center;

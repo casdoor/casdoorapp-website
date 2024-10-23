@@ -75,7 +75,6 @@ html[data-theme="dark"] .hero--primary {
   --ifm-hero-background-color: #2b3137;
 }
 
-
 html[data-theme="dark"] .hero__title,
 html[data-theme="dark"] .hero__subtitle {
   color: var(--ifm-color-primary-lightest);
@@ -314,8 +313,17 @@ html[data-theme="dark"] .theme-doc-sidebar-container div[title="Expand sidebar"]
 }
 
 /* Mobile breakpoint */
-@media only screen and (max-width: 996px) {
+@media only screen and (width <= 996px) {
   :root {
     --ifm-spacing-horizontal: 1rem;
   }
+}
+
+.download-button {
+  background-color: #a8c7ff;
+  color: #1a3d82;
+}
+
+.download-button:hover {
+  background-color: #86b0ff;
 }

@@ -1,17 +1,75 @@
 .screenshots {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  padding: 4rem 0;
 }
 
-.screenshotImage {
-  max-width: 80%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+.screenshotContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.screenshotText {
+  flex: 1;
+  max-width: 650px;
 }
 
 .screenshotTitle {
-  margin-top: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.screenshotDescription {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.featureList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.featureList li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.featureList li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+}
+
+.screenshotWrapper {
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.screenshotImage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+@media (width <= 996px) {
+  .screenshotContent {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .screenshotText,
+  .screenshotWrapper {
+    max-width: 100%;
+  }
+
+  .screenshotWrapper {
+    width: 250px;
+  }
 }

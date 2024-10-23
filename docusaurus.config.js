@@ -52,7 +52,7 @@ module.exports = {
     ({
       image: "img/casdoor.png",
       navbar: {
-        title: "Casdoor",
+        title: "Casdoor App",
         logo: {
           alt: "Casdoor Logo",
           src: "img/casdoor.png",
@@ -66,6 +66,11 @@ module.exports = {
           },
           {to: "/blog", label: "Blog", position: "left"},
           {to: "/help", label: "Help", position: "left"},
+          {
+            href: "https://github.com/casdoor/casdoor-app/releases",
+            label: "Download",
+            position: "left",
+          },
           {
             type: "localeDropdown",
             position: "right",
@@ -167,7 +172,7 @@ module.exports = {
       announcementBar: {
         id: "announcement", // ID of the announcement bar
         content:
-        "<a target=\"_blank\" rel=\"noreferrer\" href=\"https://casbin.org/\">💖 Looking for an open-source and cross-platform authorization solution that supports ACL, RBAC, ABAC? Learn more about: Casbin</a>",
+        "<a target=\"_blank\" rel=\"noreferrer\" href=\"https://casdoor.org/\">💖 Looking for a UI-first Identity Access Management (IAM) / Single-Sign-On (SSO) platform supporting OAuth 2.0, OIDC, SAML, and more? Learn more about: Casdoor</a>",
         isCloseable: true,
       },
       prism: {
