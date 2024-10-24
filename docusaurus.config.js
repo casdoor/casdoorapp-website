@@ -33,13 +33,16 @@ module.exports = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          editUrl:
-            "https://github.com/casdoor/casdoor-app/tree/main/docs/",
+          sidebarCollapsed: false,
+          editUrl: ({docPath}) => {
+            return `https://github.com/casdoor/casdoorapp-website/edit/master/docs/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/casdoor/casdoorapp-website/",
+          editUrl: ({blogDirPath, blogPath}) => {
+            return `https://github.com/casdoor/casdoorapp-website/edit/master/${blogDirPath}/${blogPath}`;
+          },
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -59,8 +62,8 @@ module.exports = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            type: "doc",
+            docId: "overview",
             position: "left",
             label: "Docs",
           },
