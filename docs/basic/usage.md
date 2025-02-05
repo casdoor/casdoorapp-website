@@ -1,6 +1,6 @@
 ---
 title: Basic Usage
-description: Casdoor App Basic Usage
+description: Casdoor Authenticator Basic Usage
 keywords: [casdoor, authenticator]
 authors: [IZUMI-Zu]
 ---

@@ -22,6 +22,9 @@
             "pattern": "^https://developer.android.com/guide/topics/manifest/manifest-element#package"
         },
         {
+            "pattern": "^https://developer.android.com/studio"
+        },
+        {
             "pattern": "^https://developer.twitter.com/en/portal/dashboard"
         },
         {

@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Casdoor App Getting Started
+description: Casdoor Authenticator Getting Started
 keywords: [casdoor, authenticator]
 authors: [IZUMI-Zu]
 ---
@@ -23,7 +23,7 @@ Before you begin, ensure you have the following prerequisites:
    - You can build the app from source code. See [here](../build/configuration.md) for more details.
 
 2. For Android users:
-   - You can download the app from the [GitHub Releases page](https://github.com/casdoor/casdoor-app/releases).
+   - You can download the app from the [GitHub Releases page](https://github.com/casdoor/casdoor-authenticator/releases).
    - Install the APK file on your device.
 
 ## Initial Setup

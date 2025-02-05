@@ -34,7 +34,7 @@ function HomepageHeader() {
               </Link>
               <Link
                 className="button button--primary button--lg download-button"
-                to="https://github.com/casdoor/casdoor-app/releases">
+                to="https://github.com/casdoor/casdoor-authenticator/releases">
                 <Translate>Download</Translate>
               </Link>
             </div>

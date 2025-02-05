@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Casdoor App Overview
+description: Casdoor Authenticator Overview
 keywords: [casdoor, authenticator]
 authors: [IZUMI-Zu]
 ---

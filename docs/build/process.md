@@ -1,6 +1,6 @@
 ---
 title: Build Process
-description: Casdoor App Build Process
+description: Casdoor Authenticator Build Process
 keywords: [casdoor, authenticator, build, process]
 authors: [IZUMI-Zu]
 ---

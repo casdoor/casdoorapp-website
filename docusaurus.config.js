@@ -9,7 +9,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Casdoor App",
+  title: "Casdoor Authenticator",
   tagline: "A mobile app for iOS and Android providing multi-factor authentication with TOTP, built using React Native.",
   favicon: "img/favicon.png",
 
@@ -17,7 +17,7 @@ module.exports = {
   baseUrl: "/",
 
   organizationName: "casdoor",
-  projectName: "casdoorapp-website",
+  projectName: "casdoor-authenticator-website",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -55,7 +55,7 @@ module.exports = {
     ({
       image: "img/casdoor.png",
       navbar: {
-        title: "Casdoor App",
+        title: "Casdoor Authenticator",
         logo: {
           alt: "Casdoor Logo",
           src: "img/casdoor.png",
@@ -70,7 +70,7 @@ module.exports = {
           {to: "/blog", label: "Blog", position: "left"},
           {to: "/help", label: "Help", position: "left"},
           {
-            href: "https://github.com/casdoor/casdoor-app/releases",
+            href: "https://github.com/casdoor/casdoor-authenticator/releases",
             label: "Download",
             position: "left",
           },
@@ -83,13 +83,13 @@ module.exports = {
                 value: "<hr style=\"margin: 0.3rem 0;\">",
               },
               {
-                to: "https://crowdin.com/project/casdoorapp-website",
+                to: "https://crowdin.com/project/casdoor-authenticator-website",
                 label: "Help translate",
               },
             ],
           },
           {
-            href: "https://github.com/casdoor/casdoor-app",
+            href: "https://github.com/casdoor/casdoor-authenticator",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -129,8 +129,8 @@ module.exports = {
                 to: "https://casdoor.org",
               },
               {
-                label: "Casdoor App",
-                to: "https://github.com/casdoor/casdoor-app",
+                label: "Casdoor Authenticator",
+                to: "https://github.com/casdoor/casdoor-authenticator",
               },
             ],
           },
@@ -160,11 +160,11 @@ module.exports = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/casdoor/casdoor-app",
+                href: "https://github.com/casdoor/casdoor-authenticator",
               },
               {
                 html: `
-                <iframe src="https://ghbtns.com/github-btn.html?user=casdoor&repo=casdoor-app&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub">Casdoor App</iframe>
+                <iframe src="https://ghbtns.com/github-btn.html?user=casdoor&repo=casdoor-authenticator&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub">Casdoor Authenticator</iframe>
                 `,
               },
             ],

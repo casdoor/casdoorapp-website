@@ -42,6 +42,7 @@ jobs:
           yarn build
 
       - name: Deploy 🚀
+        if: github.repository_owner == 'casdoor'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}

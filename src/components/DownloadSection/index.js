@@ -16,12 +16,12 @@ export default function DownloadSection() {
         <div className={styles.downloadButtons}>
           <Link
             className={`${styles.primaryButton} button--lg button`}
-            to="https://github.com/casdoor/casdoor-app/releases/latest">
+            to="https://github.com/casdoor/casdoor-authenticator/releases/latest">
             <Translate>Download for Android</Translate>
           </Link>
           <Link
             className={`${styles.secondaryButton} button--lg button`}
-            to="https://github.com/casdoor/casdoor-app">
+            to="https://github.com/casdoor/casdoor-authenticator">
             <Translate>View on GitHub</Translate>
           </Link>
         </div>

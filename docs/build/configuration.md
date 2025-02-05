@@ -1,6 +1,6 @@
 ---
 title: Build Configuration
-description: Casdoor App Build Configuration
+description: Casdoor Authenticator Build Configuration
 keywords: [casdoor, authenticator, configuration, build, android, ios]
 authors: [IZUMI-Zu]
 ---
@@ -24,8 +24,8 @@ Before you begin, ensure you have the following installed:
 1. Clone the Casdoor Authenticator App repository:
 
    ```bash
-   git clone https://github.com/casdoor/casdoor-app.git
-   cd casdoor-app
+   git clone https://github.com/casdoor/casdoor-authenticator.git
+   cd casdoor-authenticator
    ```
 
 2. Install dependencies:
