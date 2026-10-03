@@ -13,8 +13,9 @@ module.exports = {
   tagline: "A mobile app for iOS and Android providing multi-factor authentication with TOTP, built using React Native.",
   favicon: "img/favicon.png",
 
-  url: "https://casdoorapp.github.io",
+  url: "https://app.casdoor.ai",
   baseUrl: "/",
+  trailingSlash: true,
 
   organizationName: "casdoor",
   projectName: "casdoor-authenticator-website",
@@ -126,7 +127,7 @@ module.exports = {
             items: [
               {
                 label: "Casdoor Server",
-                to: "https://casdoor.org",
+                to: "https://casdoor.ai",
               },
               {
                 label: "Casdoor Authenticator",
@@ -175,7 +176,7 @@ module.exports = {
       announcementBar: {
         id: "announcement", // ID of the announcement bar
         content:
-        "<a target=\"_blank\" rel=\"noreferrer\" href=\"https://casdoor.org/\">💖 Looking for a UI-first Identity Access Management (IAM) / Single-Sign-On (SSO) platform supporting OAuth 2.0, OIDC, SAML, and more? Learn more about: Casdoor</a>",
+        "<a target=\"_blank\" rel=\"noreferrer\" href=\"https://casdoor.ai/\">💖 Looking for a UI-first Identity Access Management (IAM) / Single-Sign-On (SSO) platform supporting OAuth 2.0, OIDC, SAML, and more? Learn more about: Casdoor</a>",
         isCloseable: true,
       },
       prism: {
